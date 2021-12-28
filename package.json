@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "tsbuild": "tsc",
     "watch": "tsc -w",
     "lint": "eslint .",
     "test": "jest",
